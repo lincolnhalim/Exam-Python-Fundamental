@@ -79,12 +79,14 @@ __(Jakarta)__ ke nurrokim@purwadhika.com_
 Buatlah sebuah __file python__ yang berisi __2 buah return function__, dengan __1 argumen__ yang dapat digunakan untuk mengurai & merajut sebuah __string__
 
 
+
     ```python
     def urai(...):
-        ...
+        ....
     def rajut(...):
-        ...
+        ....
     ```
+
 
 - fungsi __urai(...)__ akan mengurai string. contoh output yang diharapkan adalah sebagai berikut:
 
