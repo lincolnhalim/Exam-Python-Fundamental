@@ -67,7 +67,7 @@ Buatlah sebuah __return function__ dengan __1 argumen__ yang dapat memutar __lis
         
    # Use the Function
    print(counterClockwise(List_awal))
-  ```
+   ```
     
  - __List Output__
  
