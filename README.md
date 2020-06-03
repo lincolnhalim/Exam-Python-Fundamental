@@ -106,11 +106,15 @@ Buatlah sebuah __file python__ yang berisi __2 buah return function__, dengan __
 - Sedangkan fungsi __rajut(...)__ akan merajut kembali string yang terurai menjadi bentuk kata asalnya. contoh output yang diharapkan adalah sebagai berikut:
 
     ```python
+    
+    # Use the function
+    
     print(rajut('CCoCodCode'))
     print(rajut('PPyPytPythPythoPython'))
     print(rajut('PPuPurPurwPurwaPurwadPurwadhPurwadhiPurwadhikPurwadhika'))
     
     # Output:
+    
     Code
     Python
     Purwadhika
