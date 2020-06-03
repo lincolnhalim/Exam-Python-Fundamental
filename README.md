@@ -4,146 +4,221 @@
 
 #
 
-### **Soal 1 - Fungsi Pangkat**
+### **Soal 1 - Kategori Bilangan (15 poin)**
 
-Buatlah __sebuah return function__ dengan __2 parameter__ yang dapat menghitung pangkat tertentu dari sebuah bilangan, __tanpa__ menggunakan operator __pangkat ( ** )__ , tanpa menggunakan fungsi __pow( )__ dan tanpa memanfaatkan __package/library manapun!__
+Buatlah sebuah __file python__ yang dapat mengkategorikan suatu angka.
+Kategori Angka yang akan digunakan antara lain :
+
+- __Bilangan Negatif__: Himpunan bilangan bulat yang nilainya lebih kecil dari 0, yaitu (-1, -2, -3, ...)
+
+- __Bilangan Nol__: Yaitu 0
+
+- __Bilangan Ganjil__: Himpunan bilangan asli positif yang nilainya tidak habis dibagi 2, yaitu (1, 3, 5, 7, 9, ...)
+
+- __Bilangan Genap__: Himpunan bilangan asli positif yang nilainya habis dibagi 2, yaitu (2, 4, 6, 8, 10, ...). Bilangan nol (0) juga digolongkan sebagai bilangan genap.
+
+- __Bilangan Prima__: Himpunan bilangan asli yang nilainya lebih besar daripada 1, yang faktor pembaginya adalah 1 dan bilangan itu sendiri. 2 dan 3 adalah bilangan prima. 4 bukan bilangan prima karena dapat dibagi 2.
+
+- __Bilangan Komposit__: Himpunan bilangan asli yang nilainya lebih besar daripada 1, yang bukan merupakan bilangan prima.
+
+- __Case Flow__: Saat dieksekusi, program akan meminta user memasukkan angka secara bebas. Kemudian user akan mendapatkan kategori bilangan dari angka yang dimasukkan, dalam bentuk __list__.
+
+- Output yang diharapkan saat file diekseskusi via terminal:
+  
+  ```bash
+  Ketik angka : 2
+  Bilangan tersebut termasuk bilangan ['genap', 'prima']
+
+  Ketik angka : 15
+  BIlangan tersebut termasuk bilangan ['ganjil', 'komposit']
+  
+  Ketik angka : 7
+  Bilangan tersebut termasuk bilangan ['ganjil', 'prima']
+  ```
+
+- __Condition__: Program hanya menerima angka bulat, jika user memasukkan __bilangan desimal__ maupun memasukkan __string__ akan keluar notifikasi :
+
+  ```bash
+  Ketik angka : ujian
+  Anda memasukkan kata bukan angka, silakan coba lagi!
+
+  Ketik angka : 20.5
+  Anda memasukkan bilangan desimal, silakan coba lagi!
+  ```
+  
+_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Kategori_Bilangan__.
+Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+
+
+#
+
+### **Soal 2 - Konversi Waktu (15 Poin)**
+
+Buatlah sebuah __return function__ dengan __1 argumen__ yang akan menerima inputan __bilangan integer(Seconds)__.
+Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
+
+- __HH__ : Hours, 2 digits, range: 00 - 99
+- __MM__ : Minutes, 2 digits, range: 00 - 59
+- __SS__ : Seconds, 2 digits, range: 00 - 59
 
 - __Case Flow__: Saat dieksekusi, program akan mencetak nilai return function.
 
-    ```python
-    print(pangkat(2, 2))
-    print(pangkat(3, 3))
-    print(pangkat(10, 5))
-    ```
 
-- Output yang diharapkan saat file diekseskusi via terminal:
+  ```python
+  def timeConverter(seconds):
+        .....
+   
   
-    ```bash
-    4
-    27
-    100000
-    ```
+  Masukkan detik : 3600
+  Konversi : 01:00:00
 
-- Contoh screenshot:
+  Masukkan detik : 3665
+  Konversi : 01:01:05
+  ```
+  
+- __Condition__: Program hanya menerima angka bulat, dengan __nilai maksimal 359999__, jika user memasukkan __nilai lebih dari itu__, __bilangan desimal__ , __bilangan negatif__, maupun memasukkan __string__ akan keluar notifikasi. __Invalid Input__
 
-    ![soal1](./soal_1.png)
+  ```bash
+  Masukkan detik : ujian
+  Invalid Input!
 
-_**Catatan:**_ 
-
-✅ Buatlah sebuah return function dengan 2 parameter: __pangkat(x, y)__
-
-❌ Dilarang menggunakan operator pangkat ( __**__ )
-
-❌ Dilarang menggunakan fungsi pangkat __*pow( )*__
-
-❌ Dilarang menggunakan package manapun seperti: __Math__, __Numpy__, __PyPi__, dll.
-
-✅ _Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Ujian_Fungsi_Pangkat__, kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
+  Masukkan detik : 20.5
+  Invalid Input!
+  ```
+_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__.
+Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
 
 #
 
-### **Soal 2 - Membalik Posisi Elemen List**
+### **Soal 3 - Mengurai dan Merajut Kata (20 Poin)**
 
-Buatlah __sebuah return function__ dengan __1 parameter__ yang dapat membalik urutan elemen dari suatu list. Misal terdapat suatu list: __[1,2,3,4,5]__ maka function yang Anda buat dapat membalik urutan elemen list menjadi: __[5,4,3,2,1]__. Namun Anda __dilarang keras__ untuk menggunakan cara-cara berikut:
 
-⭐ __Cara 1.__ *menggunakan* __reverse( )__ *method pada list*
+Buatlah sebuah __file python (*.py*)__ yang berisi __2 buah return function__, dengan __1 argumen__ yang dapat digunakan untuk mengurai & merajut sebuah __string__.
+
 ```python
-a = [1, 2, 3, 4]
-a.reverse()
-print(a)
-
-// hasil = [4, 3, 2, 1]
+    def urai(...):
+        ...
+    def rajut(...):
+        ...
 ```
 
-⭐ __Cara 2.__ *menggunakan* __list slicing__ *syntax* ( __[ : : -1]__ )
-```python
-b = [5, 6, 7, 8]
-print(b[::-1])
-
-// hasil = [8, 7, 6, 5]
-```
-
-⭐ __Cara 3:__ *menggunakan* __reversed( )__ *function*
-```python
-c = [9, 10, 11, 12]
-print(list(reversed(c)))
-
-// hasil = [12, 11, 10, 9]
-```
-
-#
-
-- __Case Flow__: Saat dieksekusi, program akan mencetak nilai return function, yakni membalik posisi elemen dari list yang dimasukkan sebagai nilai parameter function, misal:
+- fungsi __urai(...)__ akan mengurai string. contoh output yang diharapkan adalah sebagai berikut:
 
     ```python
-    print(balikPosisi([1, 2, 3, 4, 5, 6, 7, 8, 9]))
-    print(balikPosisi(['A', 'B', 'C', 'D', 'E', 'F', 'G']))
-    print(balikPosisi(['Messi', 'Suarez', 'Coutinho', 'Dembele', 'Rakitic']))
+    print(urai('Code'))
+    print(urai('Python'))
+    print(urai('Purwadhika'))
+
+    # Output:
+    CCoCodCode
+    PPyPytPythPythoPython
+    PPuPurPurwPurwaPurwadPurwadhPurwadhiPurwadhikPurwadhika
     ```
 
-- Output yang diharapkan saat file diekseskusi via terminal:
+- Sedangkan fungsi __rajut(...)__ akan merajut kembali string yang terurai menjadi bentuk kata asalnya. contoh output yang diharapkan adalah sebagai berikut:
+
+    ```python
+    print(rajut('CCoCodCode'))
+    print(rajut('PPyPytPythPythoPython'))
+    print(rajut('PPuPurPurwPurwaPurwadPurwadhPurwadhiPurwadhikPurwadhika'))
+    
+    # Output:
+    Code
+    Python
+    Purwadhika
+    ```
+_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__.
+Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+
+#
+
+### **Soal 4 - List Spinner (20 Poin)**
+
+Buatlah sebuah __file python__ yang dapat memutar __list angka__ .
+- __List awal__
+    ```bash
+    [1, 2, 3]
+    [4, 5, 6]
+    [7, 8, 9]
+    ```
+ -__List Ouput__
+     ```bash
+    [3, 6, 9]
+    [2, 5, 8]
+    [1, 4, 7]
+    ```
+_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__.
+Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+
+
+#
+
+### **Soal 5 - Segitiga Kata (30 Poin)**
+
+Buatlah __sebuah file python__ (*.py*) yang mengandung __sebuah function__ dengan __1 argumen__, yang dapat membentuk pola segitiga dengan elemen berupa karakter-karakter dari sebuah __string__ yang menjadi argumen function tersebut.
+
+- __Case Flow__: Saat dieksekusi, program akan mencetak pola segitiga dari karakter-karakter string yang diinputkan. Jika jumlah karakter string memenuhi syarat terbentuknya pola, maka program akan menjalankannya. Namun jika jumlah karakter string tidak memenuhi syarat membentuk pola, maka akan muncul pesan bahwa string tidak memenuhi syarat membentuk pola.
+
+    ```python
+    segitigaKata('Purwadhika')
+    segitigaKata('Purwadhika Startup and Coding School @BDG')
+    segitigaKata('kode python')
+    segitigaKata('kode')
+    ```
+
+- __Output__ yang diharapkan:
   
     ```bash
-    [9, 8, 7, 6, 5, 4, 3, 2, 1]
-    ['G', 'F', 'E', 'D', 'C', 'B', 'A']
-    ['Rakitic', 'Dembele', 'Coutinho', 'Suarez', 'Messi']
+    # segitigaKata('Purwadhika')
+    P 
+    u r     
+    w a d   
+    h i k a 
+    p u r w 
+    a d h   
+    i k     
+    a   
+
+    # segitigaKata('Purwadhika Startup and Coding School @BDG')
+    P
+    u r
+    w a d 
+    h i k a
+    S t a r t
+    u p a n d C
+    o d i n g S c
+    h o o l @ B D G
+    P u r w a d h i
+    k a S t a r t
+    u p a n d C
+    o d i n g
+    S c h o
+    o l @
+    B D 
+    G
+
+
+
+    # segitigaKata('kode python')
+    k
+    o d
+    e p y
+    t h o n
+    k o d e
+    p y t
+    h o
+    n
+    
+    # segitigaKata('kode')
+    Mohon maaf, jumlah karakter tidak memenuhi syarat membentuk pola.
+
     ```
 
-- Contoh screenshot:
 
-    ![soal2](./soal_2.png)
+_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Segitiga_Kata__.
+Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
 
-_**Catatan:**_ 
-
-✅ Buatlah sebuah return function dengan 1 parameter: __balikPosisi(x)__
-
-❌ Dilarang menggunakan __reverse( )__ list method
-
-❌ Dilarang menggunakan __list slicing syntax [ : : -1]__
-
-❌ Dilarang menggunakan __reversed( )__ function
-
-✅ _Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Ujian_Balik_Elemen_List__, kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
 
 #
 
-### **Soal 3 - Cari Pokemon**
-
-Buatlah sebuah __aplikasi Flask__ yang dapat memfasilitasi user untuk mencari data __Pokemon__ dengan nama tertentu, memanfaatkan __Poke API__ ([_klik sini_](https://pokeapi.co/)). API endpoint yang digunakan adalah __GET__ ke https://pokeapi.co/api/v2/pokemon/{nama_Pokemon}. Aplikasi yang dibuat harus memenuhi syarat minimal berikut:
-
-1. Server aplikasi akan berjalan di __localhost:5000__ dan ketika user melakukan GET request via browser akan tampil sebuah halaman __HTML__ sederhana yang memuat __1 buah text input__ dan __1 buah button__. Desain tampilan HTML tidak harus sama seperti contoh soal, utamakan fitur!
-
-    ![poke_1](./poke_1.png)
-
-2. User dapat memasukkan nama Pokemon yang dicari ke dalam text input yang sudah disediakan. Saat user menekan tombol button, aplikasi akan mengambil data Pokemon yang dicari via Poke API: __GET__ ke https://pokeapi.co/api/v2/pokemon/{nama_Pokemon}.
-
-    ![poke_2](./poke_2.png)
-
-3. Jika data ditemukan, maka user akan di-redirect ke __localhost:5000/hasil__ yang berisi halaman __HTML__, yang menampilkan data seputar Pokemon yang dicari. Data yang ditampilkan hanya: __nama Pokemon__, __gambar depan Pokemon__, __nomor id Pokemon__, __tinggi badan Pokemon__ & __berat badan Pokemon__. Halaman ini juga dilengkapi __1 buah button__ untuk kembali ke halaman awal. Desain tampilan HTML tidak harus sama seperti contoh soal, utamakan fitur!
-
-    ![poke_3](./poke_3a.png)
-
-    ![poke_3](./poke_3b.png)
-
-4. Namun jika data tidak ditemukan atau tidak ada di dalam database Poke API, maka user akan di-redirect ke halaman __HTML__ yang memberikan informasi bahwa data tidak ditemukan. Halaman ini juga dilengkapi __1 buah button__ untuk kembali ke halaman awal. Desain tampilan HTML tidak harus sama seperti contoh soal, utamakan fitur!
-
-    ![poke_4](./poke_4.png)
-
-_**Catatan:**_
-
-⚠ Poke API memiliki batasan __100 API request per IP address per menit__. Jika Anda mengalami kendala dikarenakan telah mencapai limit, maka tunggulah sejenak beberapa menit, lalu coba call API kembali.
-
-✅ _Commit & push source code jawaban soal ini ke __Github__ Anda, buatlah repo dengan nama __Ujian_Cari_Pokemon__, kemudian lampirkan __url link repo Github__ Anda via email ke lintang@purwadhika.com!_
-
-#
-
-### *__#HappyCoding__* :relaxed:
-
-#### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
-
-[Facebook](https://www.facebook.com/lintangbagus) | 
-[Twitter](https://twitter.com/Lintang_Wisesa) |
-[Google+](https://plus.google.com/u/0/+LintangWisesa1) |
-[Youtube](https://www.youtube.com/user/lintangbagus) | 
-:octocat: [GitHub](https://github.com/LintangWisesa) |
-[Hackster](https://www.hackster.io/lintangwisesa)
+### *__#Good Luck & HappyCoding__* 
