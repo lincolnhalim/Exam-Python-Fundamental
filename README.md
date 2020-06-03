@@ -30,7 +30,7 @@ Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
   Konversi : 01:01:05
   ```
   
-- __Condition__: Program hanya menerima angka bulat, dengan __nilai maksimal 359999__, jika user memasukkan __nilai lebih dari itu__, __bilangan desimal__ , __bilangan negatif__, maupun memasukkan __string__ akan keluar notifikasi. __Invalid Input__
+- __Condition__: Program hanya menerima angka bulat, dengan __nilai maksimal 359999__, jika user memasukkan __nilai lebih dari 359999__, __bilangan desimal__ , __bilangan negatif__, maupun memasukkan __string__ akan keluar notifikasi. __Invalid Input__
 
   ```bash
   Masukkan detik : ujian
@@ -41,10 +41,9 @@ Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
   ```
 _**Catatan:**_
 
-- ___Untuk Student BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__.
-Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
 
-- _Untuk Student __(Jakarta)__ Kirim File Exam dengan nama __Konversi_Waktu.py__ ke email : nurrokim@purwadhika.com_
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Konversi_Waktu.py__ ke email : nurrokim@purwadhika.com_
 
 
 #
@@ -68,9 +67,11 @@ Buatlah sebuah __file python__ yang dapat memutar __list angka__ .
     ```
     
     
-_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__.
-Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
-__(Jakarta)__ ke nurrokim@purwadhika.com_
+_**Catatan:**_
+
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __List_Spinner.py__ ke email : nurrokim@purwadhika.com_
 
 
 
@@ -122,10 +123,13 @@ Buatlah sebuah __file python__ yang berisi __2 buah return function__, dengan __
     Python
     Purwadhika
     ```
-_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__.
-Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
-__(Jakarta)__ ke nurrokim@purwadhika.com_
+    
+    
+_**Catatan:**_
 
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Urai_Rajut_Kata.py__ ke email : nurrokim@purwadhika.com_
 
 
 
