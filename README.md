@@ -56,9 +56,9 @@ Buatlah sebuah __file python__ yang dapat memutar __list angka__ .
     [7, 8, 9]
     ```
     
- -__List Ouput__
+ - __List Ouput__
  
-     ```bash
+    ```bash
     [3, 6, 9]
     [2, 5, 8]
     [1, 4, 7]
