@@ -76,7 +76,7 @@ __(Jakarta)__ ke nurrokim@purwadhika.com_
 ### **Soal 3 - Mengurai dan Merajut Kata (40 Poin)**
 
 
-Buatlah sebuah __file python (*.py*)__  yang berisi __2 buah return function__, dengan __1 argumen__ yang dapat digunakan untuk mengurai & merajut sebuah __string__.
+Buatlah sebuah __file python (*.py*)__ yang berisi __2 buah return function__, dengan __1 argumen__ yang dapat digunakan untuk mengurai & merajut sebuah __string__.
 
     ```python
     def urai(...):
