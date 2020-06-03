@@ -1,6 +1,6 @@
 # Soal Ujian Python Data Science Fundamental
 
-[![logopwdk.png](https://i.postimg.cc/ZRTDQZyW/logopwdk.png)](https://postimg.cc/5HR3HhgJ)
+[![logopwdk.png](https://i.postimg.cc/66VC3Rgx/logopwdk.png)](https://postimg.cc/s1XMHB3T)
 
 
 
