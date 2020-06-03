@@ -39,9 +39,12 @@ Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
   Masukkan detik : 20.5
   Invalid Input!
   ```
-_**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__.
-Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan 
-__(Jakarta)__ ke nurrokim@purwadhika.com_
+_**Catatan:**_
+
+- ___Untuk Student BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__.
+Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+
+- _Untuk Student __(Jakarta)__ Kirim File Exam dengan nama __Konversi_Waktu.py__ ke email : nurrokim@purwadhika.com_
 
 
 #
