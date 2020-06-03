@@ -80,17 +80,19 @@ Buatlah sebuah __file python__ yang berisi __2 buah return function__, dengan __
 
 
 
-    ```python
-    def urai(...):
-        ....
-    def rajut(...):
-        ....
-    ```
-
-
 - fungsi __urai(...)__ akan mengurai string. contoh output yang diharapkan adalah sebagai berikut:
 
     ```python
+    # Function Initialization :
+    def urai(...):
+        ......
+     
+    def rajut(...):
+        ......
+        
+        
+    # Use the function
+    
     print(urai('Code'))
     print(urai('Python'))
     print(urai('Purwadhika'))
