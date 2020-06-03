@@ -50,20 +50,31 @@ _**Catatan:**_
 
 ### **Soal 2 - List Spinner (30 Poin)**
 
-Buatlah sebuah __file python__ yang dapat memutar __list angka__ .
-- __List awal__
+Buatlah sebuah __return function__ dengan __1 argumen__ yang dapat memutar __list angka__ (Putaran 1X counter-clockwise) seperti keterangan di bawah ini .
+- __List Awal__
     ```bash
-    [1, 2, 3]
-    [4, 5, 6]
-    [7, 8, 9]
+    [[1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]]
     ```
     
- - __List Ouput__
+ - __Function__
+ 
+   ```python
+   # Function Initialization
+    def counterClockwise(...):
+        .....
+        
+   # Use the Function
+   print(counterClockwise(List_awal))
+  ```
+    
+ - __List Output__
  
     ```bash
-    [3, 6, 9]
-    [2, 5, 8]
-    [1, 4, 7]
+    [[3, 6, 9],
+    [2, 5, 8],
+    [1, 4, 7]]
     ```
     
     
