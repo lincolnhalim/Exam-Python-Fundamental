@@ -47,7 +47,8 @@ Kategori Angka yang akan digunakan antara lain :
   ```
   
 _**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Kategori_Bilangan__.
-Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
+__(Jakarta)__ ke nurrokim@purwadhika.com_
 
 
 #
@@ -86,7 +87,8 @@ Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
   Invalid Input!
   ```
 _**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__.
-Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan 
+__(Jakarta)__ ke nurrokim@purwadhika.com_
 
 #
 
@@ -128,7 +130,8 @@ Buatlah sebuah __file python (*.py*)__ yang berisi __2 buah return function__, d
     Purwadhika
     ```
 _**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__.
-Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
+__(Jakarta)__ ke nurrokim@purwadhika.com_
 
 #
 
@@ -148,7 +151,8 @@ Buatlah sebuah __file python__ yang dapat memutar __list angka__ .
     [1, 4, 7]
     ```
 _**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__.
-Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
+__(Jakarta)__ ke nurrokim@purwadhika.com_
 
 
 #
@@ -216,9 +220,10 @@ Buatlah __sebuah file python__ (*.py*) yang mengandung __sebuah function__ denga
 
 
 _**Catatan:**_ _Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Segitiga_Kata__.
-Kemudian lampirkan __url link repo Github__ Anda via email (BSD & Bandung) ke khumaeni@purwadhika.com dan (Jakarta) ke nurrokim@purwadhika.com_
+Kemudian lampirkan __url link repo Github__ Anda via email __(BSD & Bandung)__ ke khumaeni@purwadhika.com dan
+__(Jakarta)__ ke nurrokim@purwadhika.com_
 
 
 #
 
-### *__#Good Luck & HappyCoding__* 
+## *__#Good Luck & HappyCoding__* 
