@@ -41,9 +41,9 @@ Dan akan menghasilkan output __string__ dengan format waktu ("HH:MM:SS").
   ```
 _**Catatan:**_
 
-- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Konversi_Waktu__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com dan operational_bdg@purwadhika.com_
 
-- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Konversi_Waktu.py__ ke email : nurrokim@purwadhika.com_
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Konversi_Waktu.py__ ke email : nurrokim@purwadhika.com dan operational_jkt@purwadhika.com_
 
 
 #
@@ -80,9 +80,9 @@ Buatlah sebuah __return function__ dengan __1 argumen__ yang dapat memutar __lis
     
 _**Catatan:**_
 
-- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __List_Spinner__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com dan operational_bdg@purwadhika.com_
 
-- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __List_Spinner.py__ ke email : nurrokim@purwadhika.com_
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __List_Spinner.py__ ke email : nurrokim@purwadhika.com dan operational_jkt@purwadhika.com_
 
 
 
@@ -138,9 +138,9 @@ Buatlah sebuah __file python__ yang berisi __2 buah return function__, dengan __
     
 _**Catatan:**_
 
-- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com_
+- _Untuk Student __BSD & Bandung__ Commit & push source code project ke __Github__ Anda, buatlah repo dengan nama __Urai_Rajut_Kata__. Kemudian lampirkan __url link repo Github__ Anda via email ke khumaeni@purwadhika.com dan operational_bdg@purwadhika.com_
 
-- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Urai_Rajut_Kata.py__ ke email : nurrokim@purwadhika.com_
+- _Untuk Student __Jakarta__ Kirim File Exam dengan nama __Urai_Rajut_Kata.py__ ke email : nurrokim@purwadhika.com dan operational_jkt@purwadhika.com_
 
 
 
